@@ -1,0 +1,494 @@
+
+/* Common CSS for all pages */
+*{
+	border:0;
+	padding:0;
+	margin:0;
+	font-family: 'Bell MT';
+}
+
+body{
+	background: url('../img/background.png') ;
+}
+
+
+/* CSS for the header section */
+.header{
+	width: 100%;
+	height: 90px;
+	background: #f9f7f7;
+}
+
+.nav{
+	float:right;
+	display: block;
+	width: 180px;
+	height: 30px;
+	padding-top: 40px;
+	text-align: center;
+	margin-right: 7px;
+	color: white;
+	font-size: 1.1em;
+	font-weight: bold;
+	border: 1px solid transparent;
+	border-top:0;
+	transition: ease 1s;
+}
+
+.nav:hover{
+	background: white;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-top:0;
+}
+
+.blue{
+	background-color: #3369e8;
+}
+
+.green{
+	background-color: #009925;
+}
+
+.yellow{
+	background-color: #eeb211;
+}
+
+.red{
+	background-color: #d50f25;
+}
+
+.blue:hover{
+	color: rgba(51, 105, 232, 0.8);
+}
+
+.green:hover{
+	color: rgba(0, 153, 37, 0.8);
+}
+
+.yellow:hover{
+	color: rgba(238, 178, 17, 0.8);
+}
+
+.red:hover{
+	color: rgba(213, 15, 37, 0.8);
+}
+
+.partition{
+	width: 100%;
+	height: 7px;
+}
+
+.partition_section{
+	float: left;
+	display: block;
+	width: 20%;
+	height: 100%;
+}
+
+/* CSS for header ends */
+
+/* CSS for the footer section */
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: #f9f7f7;
+}
+
+/* CSS for footer section ends */
+
+/* CSS for the index.html */
+.main_content{
+	width: 90%;
+	height: 500px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+/* CSS for the national posts starts */
+.national_content{
+	float: left;
+	width: 50%;
+}
+
+.heading{
+	font-weight: lighter;
+	font-size: 2.5em;
+	color: #717171;
+	font-variant: small-caps;
+}
+
+.posts_section{
+	width: 95%;
+	margin: auto;
+	margin-top: 30px;
+	color: #009925;
+	font-weight: bold;
+}
+
+.national_content .posts_section{
+	margin-top: 70px;
+	border-right: 1px dotted #717171;
+}
+
+.ques{
+	color: #009925;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.location_text{
+	font-size: 0.8em;
+	background: url('../img/map_icon.png') no-repeat center left;
+	padding-left: 15px;
+	color: #717171;
+	font-weight: bold;
+}
+
+.date_text{
+	font-size: 0.8em;
+	background: url('../img/calendar_icon.png') no-repeat center left;
+	padding-left: 20px;
+	color: #717171;
+	font-weight: bold;
+}
+
+.view_more{
+	float: right;
+	margin-top: 20px;
+	font-weight: bold;
+	color: #00aced;
+}
+
+.view_more:hover{
+	cursor: pointer;
+	color: #009925;
+	text-decoration: underline;
+}
+/* CSS for the national posts end */
+
+/* CSS for the regional posts starts */
+.regional_content{
+	float: right;
+	width: 50%;
+}
+
+.regions_list_selection{
+	width: 100%;
+	height: 25px;
+	margin-top: 15px;
+	background-color: #717171;
+	color: white;
+	font-weight: lighter;
+	font-size: 0.95em;
+}
+/* CSS for the regional posts ends */
+
+/* CSS for the main page ends */
+
+
+
+/* CSS for the login page starts */
+#login, #register{
+	background: #ededed;
+}
+
+#login .main_content{
+	width: 60%;
+	margin-top: 70px;
+}
+
+.login_heading, .register_heading{
+	font-weight: lighter;
+	font-size: 5em;
+	color: #595858;
+	margin-bottom: 10px;
+}
+
+#login .main_content p, #register .main_content p{
+	font-weight: lighter;
+	font-size: 1.45em;
+	color: #595858;
+}
+
+#login .main_content p a, #register .main_content p a{
+	text-decoration: none;
+	color: #00aced;
+}
+
+/* CSS for third party login starts */
+.third_party_login_section, .self_login_section{
+	float: left;
+	width: 50%;
+	margin-top: 50px;
+}
+
+.third_party_login_section{
+	width: 400px;
+	border-right: 1px dotted #717171;
+}
+
+.third_party{
+	display: inline-block;
+	width: 170px;
+	height: 150px;
+	margin: 10px;
+	border: 1px solid transparent;
+}
+
+.third_party:hover{
+	cursor: pointer;
+	border:1px solid rgba(0, 0, 0, 0.15);
+	background-color: white;
+}
+
+.facebook{
+	background: #36518b url('../img/facebook_icon.png') no-repeat center;
+}
+
+.facebook:hover{
+	background: white url('../img/facebook_icon_blue.png') no-repeat center;
+}
+
+.gmail{
+	background: #36518b url('../img/gmail_icon.png') no-repeat center;
+}
+
+.twitter{
+	margin-left: 110px;
+	background: #36518b url('../img/twitter_icon.png') no-repeat center;
+}
+
+.twitter:hover{
+	background: white url('../img/twitter_icon_blue.png') no-repeat center;
+}
+/* CSS for third party login ends */
+
+/* CSS for self login starts */
+.self_login_section{
+	width: 300px;
+	height: 300px;
+}
+
+.login_form{
+	margin-top: 20px;
+}
+
+label{
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: #595858;
+}
+
+.login_form input{
+	width: 300px;
+	height: 40px;
+	margin-bottom: 20px;
+	color: #595858;
+	font-size: 1em;
+}
+
+.forgot_password{
+	float: left;
+	text-decoration: none;
+	color: #00aced;
+}
+
+.forgot_password:hover{
+	text-decoration: underline;
+}
+
+.keep_signed_in{
+	color: #595858;
+	float: right;
+}
+
+.login_button, .register_button{
+	float: right;
+	width: 120px;
+	height: 40px;
+	color: white;
+	background: #00aced;
+	font-size: 1.2em;
+	border: 1px solid transparent;
+}
+
+.login_button:hover, .register_button:hover{
+	cursor: pointer;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	color: #00aced;
+	background: white;
+}
+/* CSS for self login ends */
+
+/* CSS for login page ends */
+
+/* CSS for registration page starts */
+.register_form{
+	margin-top: 30px;
+	background: red;
+}
+
+.register_form input{
+	width: 300px;
+	height: 40px;
+	color: #595858;
+	font-size: 1em;
+}
+/* CSS for registration page ends */
+
+/* cSS for the view problem page starts */
+#problem .main_content{
+	height: 100%;
+}
+/* CSS for problem section */
+.problem_section{
+	position: relative;
+	width: 50%;
+	border-bottom: 1px dotted #898989;
+}
+
+.unsolved, .solved{
+	display: block;
+	width: 100px;
+	height: 20px;
+	padding-top: 3px;
+	background: #898989;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.solved{
+	background: #009925;
+}
+
+.problem_description{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 1em;
+	text-align: justify;
+	color: #717171;
+}
+
+.affected_button, .affected_button_disable{
+	width: 100px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	background: #009925;
+	font-size: 1em;
+	border: 2px solid rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.affected_button_disable{
+	background: #898989;
+}
+
+.affected_button:hover{
+	cursor: pointer;
+
+}
+
+.total_affected{
+	margin-left: 5px;
+	color: #009925;
+}
+
+.total_comments{
+	width: 110px;
+	margin-top: 20px;
+	color: #009925;
+	font-weight: bold;
+}
+
+.total_comments:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.follow_button{
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+	width: 100px;
+	height: 40px;
+	background: #009925;
+	color: white;
+	border: 2px solid rgba(0, 0, 0, 0.15);
+	font-size: 1.1em;
+	border-radius: 5px;
+	border-bottom-left-radius: 15px;
+}
+
+.follow_button:hover{
+	cursor: pointer;
+}
+/* CSS for the problem section ends */
+
+/* CSS for the comments section starts */
+.comments_section{
+	width: 50%;
+	margin-top:10px;
+}
+
+.commenting_user, .commented_user{
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.make_anonymous{
+	color: #00aced;
+}
+
+.make_anonymous:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.commenting_user_profile_pic{
+	margin-top: -20px;
+	float: right;
+	width: 80px;
+	border: 1px solid #717171;
+}
+
+.user_comment_input{
+	margin-top: 10px;
+	width: 80%;
+	height: 90px;
+	border: 1px solid #009925;
+}
+
+.post_button{
+	float: right;
+	margin-top: -25px;
+	width: 80px;
+	height: 25px;
+	background: #009925;
+	color: white;
+	font-size: 1em;
+}
+
+.post_button:hover{
+	cursor: pointer;
+}
+
+.all_comments{
+	margin-top: 20px;
+}
+
+.comment_details{
+	margin-bottom: 20px;
+}
+
+.comment{
+	margin-top: 5px;
+	font-size: 1em;
+	text-align: justify;
+	color: #717171;
+}
+/* CSS for the comments section ends */
+/* CSS for the view problem page ends */
