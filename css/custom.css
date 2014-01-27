@@ -108,6 +108,9 @@ body{
 .national_content{
 	float: left;
 	width: 50%;
+	padding: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
 }
 
 .heading{
@@ -170,6 +173,9 @@ body{
 .regional_content{
 	float: right;
 	width: 50%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	padding:10px;
 }
 
 .regions_list_selection{
@@ -223,8 +229,11 @@ body{
 }
 
 .third_party_login_section{
-	width: 400px;
+	width: 450px;
 	border-right: 1px dotted #717171;
+	padding: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
 }
 
 .third_party{
@@ -267,6 +276,9 @@ body{
 .self_login_section{
 	width: 300px;
 	height: 300px;
+	padding: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
 }
 
 .login_form{
@@ -322,6 +334,8 @@ label{
 
 /* CSS for login page ends */
 
+
+
 /* CSS for registration page starts */
 .register_form{
 	margin-top: 30px;
@@ -336,8 +350,11 @@ label{
 }
 /* CSS for registration page ends */
 
+
+
 /* cSS for the view problem page starts */
 #problem .main_content{
+	position: relative;
 	height: 100%;
 }
 /* CSS for problem section */
@@ -345,6 +362,9 @@ label{
 	position: relative;
 	width: 50%;
 	border-bottom: 1px dotted #898989;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	display: inline-block;
 }
 
 .unsolved, .solved{
@@ -432,6 +452,9 @@ label{
 .comments_section{
 	width: 50%;
 	margin-top:10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	display: inline-block;
 }
 
 .commenting_user, .commented_user{
@@ -458,8 +481,15 @@ label{
 .user_comment_input{
 	margin-top: 10px;
 	width: 80%;
+	min-width: 80%;
+	max-width: 80%;
 	height: 90px;
+	min-height: 90px;
 	border: 1px solid #009925;
+	padding: 5px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	font-size: 0.9em;	
 }
 
 .post_button{
@@ -491,4 +521,38 @@ label{
 	color: #717171;
 }
 /* CSS for the comments section ends */
+
+/* CSS for the map section starts */ 
+.map_section{
+	position: absolute;
+	width: 50%;
+	right: 0;
+	top: 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	padding: 20px;
+}
+
+.map{
+	width: 80%;
+	height: 300px;
+	margin: auto;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #717171;
+}
+/* CSS for the map section ends */
+
+/* CSS for the related problem section starts */
+.related_problems_section{
+	position: absolute;
+	right: 0;
+	top: 350px;
+	width: 50%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	padding: 20px;
+	padding-left: 60px;
+	padding-top: 0px;
+}
+/* CSS for the related problem section ends */
 /* CSS for the view problem page ends */
