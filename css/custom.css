@@ -35,12 +35,6 @@ body{
 	transition: ease 1s;
 }
 
-.nav:hover{
-	background: white;
-	border: 1px solid rgba(0, 0, 0, 0.15);
-	border-top:0;
-}
-
 .blue{
 	background-color: #3369e8;
 }
@@ -58,19 +52,19 @@ body{
 }
 
 .blue:hover{
-	color: rgba(51, 105, 232, 0.8);
+	background-color: #1b3982;
 }
 
 .green:hover{
-	color: rgba(0, 153, 37, 0.8);
+	background-color: #006519;
 }
 
 .yellow:hover{
-	color: rgba(238, 178, 17, 0.8);
+	background-color: #ca970d;
 }
 
 .red:hover{
-	color: rgba(213, 15, 37, 0.8);
+	background-color: #af0c1e;
 }
 
 .partition{
@@ -91,7 +85,7 @@ body{
 .footer{
 	width: 100%;
 	height: 100px;
-	background-color: #f9f7f7;
+	background-color: #1F262A;
 }
 
 /* CSS for footer section ends */
@@ -409,7 +403,7 @@ label{
 
 .affected_button:hover{
 	cursor: pointer;
-
+	background-color: #006519;
 }
 
 .total_affected{
@@ -445,6 +439,7 @@ label{
 
 .follow_button:hover{
 	cursor: pointer;
+	background-color: #006519;
 }
 /* CSS for the problem section ends */
 
@@ -504,6 +499,7 @@ label{
 
 .post_button:hover{
 	cursor: pointer;
+	background-color: #006519;
 }
 
 .all_comments{
