@@ -84,7 +84,7 @@ body{
 /* CSS for the footer section */
 .footer{
 	width: 100%;
-	height: 100px;
+	height: 200px;
 	background-color: #1F262A;
 }
 
@@ -279,7 +279,7 @@ body{
 	margin-top: 20px;
 }
 
-label{
+.login_form label{
 	font-size: 1.1em;
 	text-transform: uppercase;
 	color: #595858;
@@ -334,6 +334,13 @@ label{
 .register_form{
 	margin-top: 30px;
 	background: red;
+}
+
+
+.register_form label{
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: #595858;
 }
 
 .register_form input{
@@ -552,3 +559,79 @@ label{
 }
 /* CSS for the related problem section ends */
 /* CSS for the view problem page ends */
+
+/* CSS for the Search page starts */
+
+/* CSS for the search criteria section starts */
+.search_criteria_section{
+	float: left;
+	width: 40%;
+	min-width: 460px;
+	max-width: 480px;
+	color: #6b6b6b;
+}
+
+.search_button{
+	width: 150px;
+	height: 45px;
+	border-left: 25px solid #3369e8;;
+	color: white;
+	font-size: 1.7em;
+	background-image: url('../img/search_icon.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	border-radius: 5px;
+}
+
+.search_button:hover{
+	cursor: pointer;
+	border-left: 25px solid #1b3982;
+}
+
+.search_form{
+	padding: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	margin-top: 30px;
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	
+	-moz-column-gap:20px; /* Firefox */
+	-webkit-column-gap:20px; /* Safari and Chrome */
+	column-gap:20px;
+	border-right: 1px dotted #717171;
+}
+
+.checkbox_text{
+	margin-left: 5px;
+}
+
+.search_form label{
+	font-size: 1em;
+	text-transform:capitalize;
+	color: #595858;
+}
+
+.search_form_input{
+	width: 200px;
+	height: 20px;
+	color: #595858;
+	font-size: 1em;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	padding: 5px;
+	margin-bottom: 15px;
+}
+/* CSS for the search criteria section ends */
+
+/* CSS for the search result section starts */
+.search_results_section{
+	float: right;
+	width: 60%;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding: 20px;
+	padding-top: 0px;
+}
+/* CSS for the search result section ends */
+/* CSS for the search page ends */

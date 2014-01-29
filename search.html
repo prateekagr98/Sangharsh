@@ -1,0 +1,100 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Sangharsh</title>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  		<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<link rel="stylesheet" href="css/custom.css" />
+		<script>
+  			$(function() {
+    			$( "#from" ).datepicker();
+    			$( "#to" ).datepicker();
+  			});
+  		</script>
+	</head>
+	<body>
+		<div class="header">
+			<a href="login.html"><span class="nav blue">Prateek Agarwal</span></a>
+			<a href="regional.html"><span class="nav green">Regional Problems</span></a>
+			<a href="national.html"><span class="nav yellow">National Problems</span></a>
+		</div>
+		<div class="partition">
+			<span class="partition_section blue"></span>
+			<span class="partition_section red"></span>
+			<span class="partition_section yellow"></span>
+			<span class="partition_section green"></span>
+			<span class="partition_section blue"></span>
+		</div>
+
+		<div class="main_content">
+			<div class="search_criteria_section">
+				<button type="button" class="search_button blue">Search</button>
+
+				<div class="search_form">
+					<input type="checkbox" class="national_checkbox" /><span class="checkbox_text">National Issues</span><br /><br />
+					
+					<label for="complaint_id">Complaint ID</label>
+					<input type="text" class="search_form_input" />
+
+					<label for="from">From</label>
+					<input type="text" id="from" class="search_form_input" />
+
+					<label for="location">Location</label>
+					<input type="text" id="location" class="search_form_input" />
+
+					<label for="commented_by">Commented By</label>
+					<input type="text" id="commented_by" class="search_form_input" />
+
+					<input type="checkbox"/><span class="checkbox_text">Regional Issues</span><br /><br />
+
+					<label for="title">Title</label>
+					<input type="text" id="title" class="search_form_input" />
+
+					<label for="to">To</label>
+					<input type="text" id="to" class="search_form_input" />
+
+					<label for="posted_by">Posted By</label>
+					<input type="text" id="posted_by" class="search_form_input" />
+
+					<label for="followed_by">Followed By</label>
+					<input type="text" id="followed_by" class="search_form_input" />
+				</div>
+			</div>
+
+			<div class="search_results_section">
+				<h1 class="heading">Search Results</h1>
+
+				<ol class="posts_section">
+					<li>
+						<p class="ques">What does Rahul Gandhi's statement "Poverty is a state of mind" tell us about his views towards the poor people?</p>
+						<span class="location_text">Noida, UP</span>|
+						<span class="date_text">November 24, 2013</span>
+					</li>
+
+					<li>
+						<p class="ques">What does Rahul Gandhi's statement "Poverty is a state of mind" tell us about his views towards the poor people?</p>
+						<span class="location_text">Noida, UP</span>|
+						<span class="date_text">November 24, 2013</span>
+					</li>
+
+					<li>
+						<p class="ques">What does Rahul Gandhi's statement "Poverty is a state of mind" tell us about his views towards the poor people?</p>
+						<span class="location_text">Noida, UP</span>|
+						<span class="date_text">November 24, 2013</span>
+					</li>
+
+					<li>
+						<p class="ques">What does Rahul Gandhi's statement "Poverty is a state of mind" tell us about his views towards the poor people?</p>
+						<span class="location_text">Noida, UP</span>|
+						<span class="date_text">November 24, 2013</span>
+					</li>
+
+				</ol>
+			</div>
+		</div>
+
+		<div class="footer">
+		</div>
+	</body>
+</html
